@@ -19,7 +19,7 @@ if (alertTrigger) {
    
   alertTrigger.addEventListener('click', () => {
     if (email.value == "" || text.value == ""){
-        alert('Vul in')
+        alert('Wij missen nog wat gegevens...')
     } else {
         alert('Je bericht is gestuurd!')
     }
