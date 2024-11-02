@@ -19,9 +19,9 @@ if (alertTrigger) {
    
   alertTrigger.addEventListener('click', () => {
     if (email.value == "" || text.value == ""){
-        appendAlert('Vul in', 'success')
+        alert('Vul in')
     } else {
-        appendAlert('Je bericht is gestuurd!', 'success')
+        alert('Je bericht is gestuurd!')
     }
     
   })
